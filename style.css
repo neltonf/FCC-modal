@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  background-image: url("https://variety.com/wp-content/uploads/2021/03/southpark_2402_1920x10802.jpg");
+  height: 100vh;
+  width: 100vw;
+  background-size: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.card {
+  height: 40%;
+  width: 60%;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 1rem;
+  border: 0.5rem solid black;
+}
+
+.card > h1 {
+  margin-bottom: 1.5rem;
+}
+
+.btn {
+  border: none;
+  border-radius: 1rem;
+  border: 0.2rem solid black;
+  padding: 0.25rem 0.5rem;
+  font-weight: 6 00;
+}
+
+.btn:hover {
+  transition: 0.75s;
+  color: white;
+  background: #ac142d;
+  border: 0.2rem solid #ac142d;
+}
+
+.hide {
+  display: none !important;
+}
+
+.modal-div {
+  position: absolute;
+
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  width: 80%;
+  height: 80%;
+  overflow-y: auto;
+  border: 0.2rem solid black;
+  border-radius: 1rem;
+}
+
+.modal-div > p {
+  font-size: 0.7rem;
+  margin-bottom: 0.5rem;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
