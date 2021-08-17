@@ -12,7 +12,8 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .card {
@@ -23,20 +24,23 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-radius: 1rem;
-  border: 0.5rem solid black;
+  border-radius: 2rem;
+  box-shadow: 0 0 0 2rem black;
 }
 
 .card > h1 {
-  margin-bottom: 1.5rem;
+  font-size: 5rem;
+  margin-bottom: 2.5rem;
 }
 
 .btn {
   border: none;
   border-radius: 1rem;
-  border: 0.2rem solid black;
+  border: 0.25rem solid black;
   padding: 0.25rem 0.5rem;
-  font-weight: 6 00;
+  font-weight: 600;
+  font-size: 2rem;
+  cursor: pointer;
 }
 
 .btn:hover {
@@ -57,21 +61,29 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 1rem;
+  padding: 1.5rem;
   width: 80%;
   height: 80%;
   overflow-y: auto;
-  border: 0.2rem solid black;
+  box-shadow: 0 0 0 1.5rem black;
   border-radius: 1rem;
 }
 
 .modal-div > p {
-  font-size: 0.7rem;
-  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .modal-header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 100%;
+  font-size: 2rem;
+}
+
+.material-icons {
+  color: #ac142d;
+  font-size: 2rem !important;
+  cursor: pointer;
 }
