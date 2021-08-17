@@ -24,8 +24,8 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-radius: 2rem;
-  box-shadow: 0 0 0 2rem black;
+  border-radius: 1rem;
+  border: 2rem solid black;
 }
 
 .card > h1 {
@@ -64,8 +64,8 @@ main {
   padding: 1.5rem;
   width: 80%;
   height: 80%;
-  overflow-y: auto;
-  box-shadow: 0 0 0 1.5rem black;
+  overflow-y: auto;  
+  border: 2rem solid black;
   border-radius: 1rem;
 }
 
